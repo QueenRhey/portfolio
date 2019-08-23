@@ -1,0 +1,133 @@
+body {
+    background: #FFA17F;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #00223E, #FFA17F);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #00223E, #FFA17F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+header {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	background-color: transparent;
+	font-family: 'Italianno', cursive;	
+	height: 50px;
+	padding: 30px;
+}
+
+#navbar {
+	margin-right: 100px;
+	position: fixed;
+}
+#navbar > ul {
+	display: flex;
+}
+#navbar > ul > li {
+	list-style: none;
+	margin-left: 30px;
+}
+#welcome {
+	text-decoration: none;
+}
+#welcome-section {
+	display: flex;
+	padding-right:30px;
+	padding-left: 30px;
+	color: #040926;
+	height: 100vh;
+}
+
+
+#welcome-image {
+	width: 500px;
+	height: 500px;
+	border-radius: 50%;
+}
+#description {
+	align-self: center;
+	font-size: 100px;
+	margin-left: 70px;
+	font-family: 'Italianno', cursive;
+    font-size: 70px;
+}
+
+#projects {
+	display:flex;
+	flex-direction: column;
+}
+h2 { 
+	text-align: center;
+	padding-top: 10px;
+	font-size: 30px;
+    color: #040926;
+    font-family: 'Noto Serif KR', serif;
+ }
+ .projects-container {
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: space-around;
+ 	text-align: center;
+ }
+
+ .img {
+ 	height: 250px;
+ 	width: 300px;
+ }
+ a {
+ 	text-decoration: none;
+ 	color: #1D4C5C;
+ 	font-size: 30px;
+ }
+ h3 {
+ 	margin-left: 450px;
+ 	color:#040926;
+ 	padding-top: 50px;
+ 	font-size: 40px;
+ 	font-family: 'Noto Serif KR', serif;
+ }
+ .contact-links {
+ 	margin-left: 500px;
+ }
+.contact-links a {
+	font-size: 40px;
+  	margin-left: 35px;
+  	color: #FFA17F;
+  }
+
+h1 {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	font-size: 110px;
+}
+
+p {
+   margin-block-start: 0;
+   margin-block-end: 0;
+}
+#new {
+	margin-left: 200px;
+}
+p {
+	color: #040926;
+	margin-top: 15px;
+	font-family: 'Italianno', cursive;
+}
+
+@media screen and (max-width: 992px) {
+	.projects-container a {
+		width: 50%;
+	}
+
+	#base * {
+		margin-left: 0;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 75px;
+	}
+	#new {
+		margin-left: 95px;
+	}
+	#welcome-section {
+		height: auto;
+	}
+  }
